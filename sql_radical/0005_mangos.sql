@@ -1,11 +1,11 @@
--- Sagrario Ruby hero (carlos93)
+-- Sagrario Ruby Hero (carlos93)
 
 UPDATE `creature_template` SET `ScriptName` = 'mob_living_ember' WHERE `entry` IN ('40683');
 UPDATE `creature_template` SET `ScriptName` = 'mob_living_inferno' WHERE `entry` IN ('40681');
 
 SET NAMES UTF8;
 
--- Oculus Drakos event
+-- Oculus Drakos Event
 
 UPDATE `creature_template` SET `modelid_1` = '11686', `modelid_2` = '0', `modelid_3` = '0', `unit_flags` = '33554818', `ScriptName` = 'drakos_event' WHERE `entry` = 11364;
 
@@ -31,7 +31,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc6` = 'Los dracos ámbar destacan en ca
 
 UPDATE `locales_npc_text` SET `Text0_0_loc7` = `Text0_0_loc6`, `Text0_1_loc7` = `Text0_1_loc6`;
 
--- Forge of Souls final event
+-- Forge of Souls Final Event
 
 UPDATE `creature_template` SET `ScriptName` = 'npc_sylvanas_jaina_fos_end' WHERE `entry` in ( 38160, 38161);
 
@@ -47,13 +47,11 @@ UPDATE `achievement_criteria_requirement` SET `type`='18' WHERE (`criteria_id`='
 
 DELETE FROM `gameobject_template` WHERE `entry` = 193992;
 INSERT INTO `gameobject_template` (`entry`, `type`, `displayId`, `name`, `IconName`, `castBarCaption`, `unk1`, `faction`, `flags`, `size`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `data0`, `data1`, `data2`, `data3`, `data4`, `data5`, `data6`, `data7`, `data8`, `data9`, `data10`, `data11`, `data12`, `data13`, `data14`, `data15`, `data16`, `data17`, `data18`, `data19`, `data20`, `data21`, `data22`, `data23`, `mingold`, `maxgold`, `ScriptName`)
-VALUES
-	(193992, 0, 8524, 'Dragon Cage Door', '', '', '', 14, 32, 1.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '');
+VALUES (193992, 0, 8524, 'Dragon Cage Door', '', '', '', 14, 32, 1.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '');
 
 DELETE FROM `gameobject_template` WHERE `entry` = 193993;
 INSERT INTO `gameobject_template` (`entry`, `type`, `displayId`, `name`, `IconName`, `castBarCaption`, `unk1`, `faction`, `flags`, `size`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `data0`, `data1`, `data2`, `data3`, `data4`, `data5`, `data6`, `data7`, `data8`, `data9`, `data10`, `data11`, `data12`, `data13`, `data14`, `data15`, `data16`, `data17`, `data18`, `data19`, `data20`, `data21`, `data22`, `data23`, `mingold`, `maxgold`, `ScriptName`)
-VALUES
-	(193993, 0, 8524, 'Dragon Cage Door', '', '', '', 14, 32, 1.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '');
+VALUES (193993, 0, 8524, 'Dragon Cage Door', '', '', '', 14, 32, 1.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '');
 
 UPDATE `gameobject` SET `id` = '193992' WHERE `guid` = 49707;
 UPDATE `gameobject` SET `id` = '193993' WHERE `guid` = 49705;

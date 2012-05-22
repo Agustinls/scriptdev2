@@ -47,7 +47,7 @@ INSERT IGNORE INTO `script_texts` (`entry`,`content_default`,`content_loc6`,`con
 /* PIT OF SARON */
 -- Intro
 -- Jaina
-delete from script_texts where entry between -1610300 and -1610000;
+DELETE FROM `script_texts` WHERE entry BETWEEN -1610300 AND -1610000;
 INSERT INTO `script_texts` VALUES ('-1610042', 'Heroes of the Alliance, attack!', '', '', '', '', '', '¡Héroes de la Alianza! ¡Al ataque!', '¡Héroes de la Alianza! ¡Al ataque!', '', 16626, '1', '0', '0', 'jaina_intro1');
 INSERT INTO `script_texts` VALUES ('-1610043', 'No! You monster!', '', '', '', '', '', '¡No! ¡Monstruo!', '¡No! ¡Monstruo!', '', 16627, '1', '0', '0', 'jaina_intro2');
 INSERT INTO `script_texts` VALUES ('-1610044', 'I do what I must. Please forgive me noble soldiers!', '', '', '', '', '', 'Cumplo con mi deber. Perdonadme, nobles soldados.', 'Cumplo con mi deber. Perdonadme, nobles soldados.', '', 16628, '1', '0', '0', 'jaina_intro3');
@@ -121,8 +121,8 @@ INSERT INTO `script_texts` VALUES ('-1610098', 'I thought he\'d never shut up. A
 INSERT INTO `script_texts` VALUES ('-1610099', 'The Frost Queen is gone. We must keep moving - our objective is near.', null, null, null, null, null, null, null, null, 16615, '1', '0', '0', 'outro5_aly');
 INSERT INTO `script_texts` VALUES ('-1610100', 'I... I could not save them... Damn you, Arthas! DAMN YOU!', null, null, null, null, null, null, null, null, 16616, '1', '0', '0', 'outro6_aly');
 
--- Cámaras de Reflexión
+-- Camaras de Reflexion
 
-delete from script_texts where entry between -1668535 and -1668534;
+DELETE FROM `script_texts` WHERE entry BETWEEN -1668535 AND -1668534;
 INSERT INTO `script_texts` VALUES ('-1668534', 'You are not worthy to face the Lich King!', null, null, null, null, null, 'No sois dignos de enfrentaros al Rey Exánime.', 'No sois dignos de enfrentaros al Rey Exánime.', null, 16921, '1', '0', '0', 'frostworn_general_aggro');
 INSERT INTO `script_texts` VALUES ('-1668535', 'Master, I have failed...', null, null, null, null, null, 'Maestro... he fracasado...', 'Maestro... he fracasado...', null, 16922, '1', '0', '0', 'frostworn_general_death');

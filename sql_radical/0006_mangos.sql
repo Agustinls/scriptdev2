@@ -34,8 +34,7 @@ INSERT INTO `creature_ai_scripts` VALUES
 UPDATE `creature_template` SET `AIName` = 'EventAI',`ScriptName`='' WHERE entry = 27745;
 
 DELETE FROM `creature_ai_scripts` WHERE (`creature_id`=27745);
-INSERT INTO `creature_ai_scripts` VALUES 
-(2774501, 27745, 9, 0, 100, 7, 0, 5, 5000, 8000, 11, 25710, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Lordaeron Footman - Cast Heroic Strike'),
+INSERT INTO `creature_ai_scripts` VALUES (2774501, 27745, 9, 0, 100, 7, 0, 5, 5000, 8000, 11, 25710, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Lordaeron Footman - Cast Heroic Strike'),
 (2774502, 27745, 0, 0, 100, 7, 7000, 12000, 9000, 15000, 11, 52317, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Lordaeron Footman - Cast Defend');
 
 UPDATE `creature_template` SET `AIName` = '',`ScriptName`='npc_arthas_priest' WHERE entry IN (70004, 70005);

@@ -1,1 +1,1 @@
-update creature_template set faction_A=14, faction_H=14 where entry=35517;
+UPDATE "creature_template" set faction_A=14, faction_H=14 WHERE entry=35517;

@@ -9,5 +9,4 @@ UPDATE `script_texts` SET `content_loc6`='Dejadme que os ofrezca uno de mis cofr
 
 DELETE FROM `script_texts` WHERE `entry` = -1713750;
 INSERT INTO `script_texts` (`entry`, `content_default`, `content_loc1`, `content_loc2`, `content_loc3`, `content_loc4`, `content_loc5`, `content_loc6`, `content_loc7`, `content_loc8`, `sound`, `type`, `language`, `emote`, `comment`)
-VALUES
-	(-1713750, 'Muajajajajajajaja!', NULL, NULL, NULL, NULL, NULL, '¡Muajajajajajajaja!', '¡Muajajajajajajaja!', NULL, 16148, 6, 0, 0, 'jaraxxus SAY_ENRAGE');
+VALUES (-1713750, 'Muajajajajajajaja!', NULL, NULL, NULL, NULL, NULL, '¡Muajajajajajajaja!', '¡Muajajajajajajaja!', NULL, 16148, 6, 0, 0, 'jaraxxus SAY_ENRAGE');

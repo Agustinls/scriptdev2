@@ -1,11 +1,7 @@
 ##Script
-UPDATE creature_template SET npcflag=1, AIName="",ScriptName="npc_spirit_azuregos" WHERE entry=15481;
+UPDATE `creature_template` SET npcflag=1, AIName="",ScriptName="npc_spirit_azuregos" WHERE entry=15481;
 
-##TextIDs
-INSERT INTO scriptdev2.script_texts (entry, emote, content_default, comment) VALUES
-(-1630010, 0, "I said GOOD DAY!", "SAY_SpiritAzu_GoodBye");
-
-INSERT INTO npc_text (ID, prob0, em0_1, text0_0) VALUES
+INSERT INTO `npc_text` (ID, prob0, em0_1, text0_0) VALUES
 (1630011, 100, 163, "You seek the scepter shard charged to the protection of the Blue Flight?"),
 (1630012, 100, 0, "Of course I do not have the shard. That would be asinine. I walk amongst savages in this cursed land! I cannot take five steps without some crazed orc or human trying to thrust a sharp stick into my hide. At any given time you could very well be speaking to my ghostly spirit.$B$B Anyhow... I hid it.$B$B Go on... ask me where."),
 (1630013, 100, 0, "You are going to love this story, $R. See, here is the thing. As soon as Malygos charged me with protecting the scepter shard, I knew I was in for an eternity of headache and pain.$B$B All I want to do is study these magic rich shorelines and take in what artifacts might remain from the Sundering. You know, there was once a thriving Highborne civilization here! You don't have to tell me that there is going to be some solid magical items around here, $R. I can smell it!"),
